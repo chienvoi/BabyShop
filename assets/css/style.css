@@ -5640,7 +5640,7 @@ input[type="number"] {
     color: rgba(0, 0, 0, .8);
 }
 
-.section.has-navi:first-of-type .section-nav.prev, .section.has-navi:last-of-type .section-nav.next {
+.section.has-navi .section-nav.prev, .section.has-navi .section-nav.next {
     display: none;
 }
 
