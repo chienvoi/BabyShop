@@ -6696,6 +6696,22 @@ hr.no_line {
 }
 
 /* Section 11 */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .footer-fixed #Footer, .footer-sliding #Footer {
+        position: static;
+    }
+}
 
+@media only screen and (max-width: 767px) {
+    .footer-fixed #Footer, .footer-sliding #Footer {
+        position: static;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-menu-sticky #Footer {
+        padding-bottom: 70px;
+    }
+}
 
 
